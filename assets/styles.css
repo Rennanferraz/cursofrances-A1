@@ -2618,3 +2618,50 @@ html { scroll-padding-top:160px; }
 /* Keep anchored sections readable below the two fixed navigation bars. */
 .lesson-topline { background:var(--bg); }
 .lesson-section, .activity-block, .exercise { scroll-margin-top:154px; }
+
+/* Parcours A1 — áudio simplificado / correção pontual v0.19.
+   Reutiliza a identidade e os controles aprovados; não cria barras flutuantes. */
+
+/* Compatibilidade com os renderizadores rc2: não exibir os controles retirados
+   nem por um instante antes de o JavaScript remover a marcação legada. */
+.speech-toolbar, .speech-sheet-tools, .speech-role-note,
+[data-sheet="speech-settings"], [data-speech-status] { display:none!important; }
+
+/* A faixa interna acompanha o documento. O cabeçalho principal não é alterado. */
+.lesson-topline { position:static; top:auto; z-index:auto; backdrop-filter:none; }
+/* A âncora considera somente o cabeçalho original, não duas barras empilhadas. */
+html { scroll-padding-top:92px; }
+.lesson-section, .activity-block, .exercise { scroll-margin-top:0; }
+
+.speech-play-group svg, .speech-play-line svg, .speech-example-play svg { width:18px; height:18px; flex-shrink:0; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+.speech-badge { display:inline-block; border-radius:999px; padding:6px 10px; background:var(--teal-050); color:var(--teal-950); font-size:11px; font-weight:600; white-space:nowrap; }
+.speech-dialogue-controls { display:flex; align-items:center; flex-wrap:wrap; gap:10px 14px; margin:0 0 18px; }
+.speech-play-group { display:inline-flex; align-items:center; gap:9px; min-height:44px; padding:10px 15px; background:var(--teal-900); border:1px solid var(--teal-900); border-radius:12px; color:white; font:600 13px var(--font-body); cursor:pointer; }
+.speech-play-group:hover { background:var(--teal-950); }
+.speech-dialogue-help { color:var(--muted); font-size:11px!important; line-height:1.6; }
+.speaker-line[data-speech-line] { position:relative; display:grid; grid-template-columns:32px minmax(0,1fr) 36px; gap:12px; align-items:start; border-radius:10px; transition:background-color .12s ease; }
+.speaker-line[data-speech-line] p { min-width:0; }
+.speech-play-line { display:grid; place-items:center; width:36px; height:36px; margin:0; padding:7px; border:1px solid var(--line); border-radius:50%; background:var(--surface); color:var(--teal-900); cursor:pointer; }
+.speech-example-play { display:inline-flex; align-items:center; justify-content:center; vertical-align:middle; width:32px; height:32px; margin:2px 0 2px 8px; padding:6px; border:1px solid #c8ded9; border-radius:50%; background:var(--teal-050); color:var(--teal-900); cursor:pointer; }
+.speech-example-play svg { width:16px; height:16px; }
+.speech-example { transition:background-color .12s ease; }
+.speech-example-play:hover, .speech-play-line:hover { background:var(--teal-100); border-color:var(--teal-800); }
+.speech-is-reading { background:var(--yellow-050)!important; outline:2px solid #dfc76f; outline-offset:3px; border-radius:6px; }
+button.is-playing { color:var(--teal-950); background:var(--yellow-100); border-color:#c4a74b; }
+.speech-letter { display:inline-flex; align-items:center; justify-content:center; min-width:40px; min-height:40px; padding:4px 9px; border:1px solid var(--line); background:var(--surface); border-radius:10px; color:var(--teal-950); font:600 18px var(--font-display); cursor:pointer; }
+.speech-letter:hover { background:var(--teal-100); }
+.speech-play-line:focus-visible, .speech-play-group:focus-visible, .speech-example-play:focus-visible, .speech-letter:focus-visible { outline:3px solid var(--teal-800); outline-offset:3px; }
+.script-box .speaker-line p { color:var(--ink); }
+/* Mensagens de erro só aparecem junto ao trecho acionado, nunca em barra fixa. */
+.speech-inline-status { margin:0 0 16px; color:var(--teal-950); font:400 12px/1.6 var(--font-body); overflow-wrap:anywhere; }
+.speech-live { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0; }
+@media(max-width:700px) {
+  .speaker-line[data-speech-line] { grid-template-columns:28px minmax(0,1fr) 34px; gap:8px; }
+  .speaker-line[data-speech-line] .avatar { width:28px; height:28px; }
+  .speech-play-line { width:34px; height:34px; }
+  .speech-dialogue-controls { align-items:flex-start; flex-direction:column; gap:8px; }
+  .speech-dialogue-help { max-width:100%; }
+}
+@media(max-width:640px) { html { scroll-padding-top:82px; } }
+@media(prefers-reduced-motion:reduce) { .speaker-line[data-speech-line], .speech-example { transition:none; } }
+@media print { .speech-play-line, .speech-example-play, .speech-dialogue-controls, .speech-inline-status, .speech-live { display:none!important; } }
