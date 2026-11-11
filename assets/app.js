@@ -1,5 +1,5 @@
 "use strict";
-const UNIT_DATA = {"version": "v0.2-rc1", "groups": [{"id": "a1-u01-l01-a01", "title": "Confira o que você compreendeu", "mode": "reading", "source_refs": ["U1 §2 B037–B039"], "adaptation": "Perguntas de leitura a partir das transcrições. Não equivalem à avaliação de compreensão oral. Contextos e atribuição dos interlocutores são rótulos editoriais.", "items": [{"id": "a1-u01-l01-a01-q01", "prompt": "Em qual contexto se passa o primeiro diálogo?", "options": ["Entre amigos, na sala de aula.", "Entre cliente e recepcionista de hotel."], "answer": 0, "feedback": "O contexto indicado é uma conversa entre amigos, em classe. Observe “Salut !” e o uso de “tu”."}, {"id": "a1-u01-l01-a01-q02", "prompt": "Quais são os nomes dos dois amigos?", "options": ["Anna e Karim.", "Léa e Karim."], "answer": 1, "feedback": "Léa diz “Je m’appelle Léa”. Em seguida, Karim se apresenta: “Moi, je m’appelle Karim”."}, {"id": "a1-u01-l01-a01-q03", "prompt": "Qual expressão encerra a conversa dos amigos?", "options": ["Bonne journée !", "À demain !"], "answer": 1, "feedback": "Os dois encerram com “À demain !”, uma despedida para quando se espera ver a pessoa no dia seguinte."}, {"id": "a1-u01-l01-a01-q04", "prompt": "Onde acontece o segundo diálogo?", "options": ["Em uma recepção de hotel.", "Em uma festa de amigos."], "answer": 0, "feedback": "O segundo contexto é um atendimento na recepção de hotel, com as formas “madame”, “monsieur” e “vous”."}, {"id": "a1-u01-l01-a01-q05", "prompt": "Como a cliente do hotel se chama?", "options": ["Anna Martins.", "Léa Martins."], "answer": 0, "feedback": "A cliente responde: “Je m’appelle Anna Martins”. O nome do recepcionista não é informado."}, {"id": "a1-u01-l01-a01-q06", "prompt": "Qual pergunta aparece na recepção do hotel?", "options": ["Tu t’appelles comment ?", "Vous vous appelez comment ?"], "answer": 1, "feedback": "No atendimento apresentado, a pergunta usa “vous”. Entre os amigos, a pergunta usa “tu”."}]}, {"id": "a1-u01-l01-a02", "title": "Tu ou vous ?", "source_refs": ["U1 §2 B046", "Design v0.1 #lesson-practice"], "items": [{"id": "a1-u01-l01-a02-q01", "prompt": "Você encontra uma amiga em uma festa.", "options": ["TU", "VOUS"], "answer": 0, "feedback": "Neste contexto de amizade, usamos “tu”. A escolha do registro depende da relação e da situação."}, {"id": "a1-u01-l01-a02-q02", "prompt": "Você fala com a recepcionista de um hotel pela primeira vez.", "options": ["TU", "VOUS"], "answer": 1, "feedback": "No primeiro atendimento descrito, “vous” é a escolha formal proposta."}, {"id": "a1-u01-l01-a02-q03", "prompt": "Você conhece uma pessoa em uma primeira reunião profissional.", "options": ["TU", "VOUS"], "answer": 1, "feedback": "O exercício apresenta um primeiro contato profissional: aqui, a escolha proposta é “vous”."}]}, {"type": "quiz", "id": "a1-u01-l02-a02", "title": "Leia a ficha de Marina", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l02-a02-q01", "type": "choice", "prompt": "Quel est son prénom ?", "options": ["Silva", "Marina"], "answer": 1, "feedback": "Prénom é o nome próprio: Marina. Nom, nesta ficha, identifica o sobrenome Silva."}, {"id": "a1-u01-l02-a02-q02", "type": "choice", "prompt": "Quel âge a Marina ?", "options": ["24 ans", "20 ans"], "answer": 0, "feedback": "No texto, Marina diz “J’ai 24 ans”."}, {"id": "a1-u01-l02-a02-q03", "type": "choice", "prompt": "Quelle est sa nationalité ?", "options": ["brésilienne", "italienne"], "answer": 0, "feedback": "A nacionalidade indicada é brésilienne. O país é le Brésil."}, {"id": "a1-u01-l02-a02-q04", "type": "choice", "prompt": "Où habite Marina ?", "options": ["À Paris", "À Rio"], "answer": 1, "feedback": "“J’habite à Rio” localiza sua cidade. Habiter aparece aqui como expressão; a conjugação será estudada adiante."}]}, {"type": "quiz", "id": "a1-u01-l02-a07", "title": "Exercice 1 — être ou avoir", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§3, B085–B087"}], "items": [{"id": "a1-u01-l02-a07-q01", "type": "text", "prompt": "Je ______ brésilien.", "answers": ["suis"], "feedback": "A nacionalidade é apresentada com être. Com je, a forma-alvo é suis.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q02", "type": "text", "prompt": "Tu ______ quel âge ?", "answers": ["as"], "feedback": "Para idade, a expressão trabalha avoir. Com tu, a forma-alvo é as.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q03", "type": "text", "prompt": "Elle ______ italienne.", "answers": ["est"], "feedback": "A frase informa nacionalidade. Com elle, a forma-alvo é est.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q04", "type": "text", "prompt": "Nous ______ 20 ans.", "answers": ["avons"], "feedback": "A idade é expressa com avoir. Com nous, a forma-alvo é avons.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q05", "type": "text", "prompt": "Vous ______ français ?", "answers": ["êtes"], "feedback": "A pergunta informa nacionalidade. Com vous, a forma-alvo é êtes. A explicação dessa forma ainda depende de U1-P09.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q06", "type": "text", "prompt": "Ils ______ 30 ans.", "answers": ["ont"], "feedback": "A idade é expressa com avoir. Com ils, a forma-alvo é ont.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l03-a02", "title": "Compreenda o encontro", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l03-a02-q01", "type": "choice", "prompt": "Quelle est la profession de Julien ?", "options": ["ingénieur", "journaliste"], "answer": 0, "feedback": "Julien se apresenta com “Je suis ingénieur”."}, {"id": "a1-u01-l03-a02-q02", "type": "choice", "prompt": "Où travaille Sofia ?", "options": ["Dans un journal à Lyon.", "Dans une entreprise de logistique."], "answer": 0, "feedback": "Sofia diz que trabalha em um jornal, em Lyon."}, {"id": "a1-u01-l03-a02-q03", "type": "choice", "prompt": "Qual pergunta busca o lugar de trabalho?", "options": ["Vous travaillez où ?", "Comment vous vous appelez ?"], "answer": 0, "feedback": "Où pergunta pelo lugar. O nome é perguntado com s’appeler."}]}, {"type": "quiz", "id": "a1-u01-l03-a03", "title": "Vrai ou faux ?", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l03-a03-q01", "type": "choice", "prompt": "Sofia travaille dans une entreprise de logistique.", "options": ["Vrai", "Faux"], "answer": 1, "feedback": "Faux. Quem trabalha na empresa de logística é Julien; Sofia trabalha em um jornal."}]}, {"type": "quiz", "id": "a1-u01-l03-a08", "title": "Exercice 2 — le féminin", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§4, B123–B125"}], "items": [{"id": "a1-u01-l03-a08-q01", "type": "text", "prompt": "un étudiant → ______", "answers": ["une étudiante"], "feedback": "O alvo do original altera o artigo para une e acrescenta e em étudiante.", "origin": "explicit_source"}, {"id": "a1-u01-l03-a08-q02", "type": "text", "prompt": "un infirmier → ______", "answers": ["une infirmière"], "feedback": "O alvo do original é une infirmière: muda o artigo e a terminação -ier para -ière.", "origin": "explicit_source"}, {"id": "a1-u01-l03-a08-q03", "type": "text", "prompt": "un acteur → ______", "answers": ["une actrice"], "feedback": "O alvo do original é une actrice. Compare as formas completas, sem aplicar uma regra única a todas as profissões.", "origin": "explicit_source"}, {"id": "a1-u01-l03-a08-q04", "type": "text", "prompt": "un journaliste → ______", "answers": ["une journaliste"], "feedback": "Journaliste mantém a grafia; o artigo passa a une.", "origin": "explicit_source"}, {"id": "a1-u01-l03-a08-q05", "type": "text", "prompt": "un serveur → ______", "answers": ["une serveuse"], "feedback": "O alvo do original é une serveuse: artigo feminino e forma feminina da profissão.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l04-a02", "title": "Localize os dados de Paul", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l04-a02-q01", "type": "choice", "prompt": "Quel est son prénom ?", "options": ["Durand", "Paul"], "answer": 1, "feedback": "Paul é o prénom; Durand é o nom."}, {"id": "a1-u01-l04-a02-q02", "type": "choice", "prompt": "Comment s’écrit son nom ?", "options": ["D-U-R-A-N-D", "D-U-R-A-N-T"], "answer": 0, "feedback": "No diálogo, Paul soletra D-U-R-A-N-D."}, {"id": "a1-u01-l04-a02-q03", "type": "choice", "prompt": "Quelle est son adresse ?", "options": ["12, rue des Fleurs", "14, avenue Victor Hugo"], "answer": 0, "feedback": "O endereço informado é 12, rue des Fleurs."}, {"id": "a1-u01-l04-a02-q04", "type": "choice", "prompt": "Dans quelle ville habite-t-il ?", "options": ["Marseille", "Paris"], "answer": 0, "feedback": "Paul diz “à Marseille”."}, {"id": "a1-u01-l04-a02-q05", "type": "choice", "prompt": "Quel numéro figure dans le dialogue ?", "options": ["06 12 34 56 78", "06 45 18 62 30"], "answer": 0, "feedback": "O diálogo traz 06 12 34 56 78. Aqui você apenas localiza o texto: o par 78 está fora do recorte 0–69 e aguarda decisão acadêmica."}]}, {"type": "quiz", "id": "a1-u01-l04-a03", "title": "Reconheça a pergunta", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l04-a03-q01", "type": "choice", "prompt": "Para pedir endereço, qual pergunta é adequada?", "options": ["Quelle est votre adresse ?", "Quel âge avez-vous ?"], "answer": 0, "feedback": "Adresse é o endereço; âge é a idade."}, {"id": "a1-u01-l04-a03-q02", "type": "choice", "prompt": "Para pedir telefone, qual pergunta é adequada?", "options": ["Quel est votre numéro de téléphone ?", "Quelle est votre nationalité ?"], "answer": 0, "feedback": "Numéro de téléphone identifica o dado de contato pedido."}]}, {"type": "quiz", "id": "a1-u01-l04-a08", "title": "Exercice 3 — articles définis", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§5, B160–B161"}], "items": [{"id": "a1-u01-l04-a08-q01", "type": "text", "prompt": "______ adresse", "answers": ["l'"], "feedback": "O alvo é l’adresse: o artigo é elidido antes da vogal. A organização da tabela de apoio aguarda U1-P08.", "origin": "explicit_source"}, {"id": "a1-u01-l04-a08-q02", "type": "text", "prompt": "______ numéro", "answers": ["le"], "feedback": "O gabarito do original é le numéro. Digite somente o artigo no campo.", "origin": "explicit_source"}, {"id": "a1-u01-l04-a08-q03", "type": "text", "prompt": "______ rue", "answers": ["la"], "feedback": "O gabarito do original é la rue. Digite somente o artigo no campo.", "origin": "explicit_source"}, {"id": "a1-u01-l04-a08-q04", "type": "text", "prompt": "______ villes", "answers": ["les"], "feedback": "Villes está no plural; o artigo definido solicitado é les.", "origin": "explicit_source"}, {"id": "a1-u01-l04-a08-q05", "type": "text", "prompt": "______ téléphone", "answers": ["le"], "feedback": "O gabarito do original é le téléphone. Digite somente o artigo no campo.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l05-a02", "title": "Quem é apresentado?", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l05-a02-q01", "type": "choice", "prompt": "Na primeira fala, quem é apresentado a Anna?", "options": ["Marc", "Paul"], "answer": 0, "feedback": "A expressão é “je te présente Marc”. O nome de quem fala não é informado."}, {"id": "a1-u01-l05-a02-q02", "type": "choice", "prompt": "Quelle est la nationalité d’Anna ?", "options": ["française", "italienne"], "answer": 1, "feedback": "Anna responde “Non, je suis italienne”."}, {"id": "a1-u01-l05-a02-q03", "type": "choice", "prompt": "Quais palavras do diálogo são pronomes tônicos?", "options": ["moi, lui", "je, il"], "answer": 0, "feedback": "Moi e lui são as formas tônicas destacadas no diálogo; je e il são sujeitos."}, {"id": "a1-u01-l05-a02-q04", "type": "choice", "prompt": "Na primeira fala, qual expressão indica tratamento informal?", "options": ["Je te présente…", "Je vous présente…"], "answer": 0, "feedback": "Te corresponde ao tratamento informal. A conversa também contém vous em outro contato."}]}, {"type": "quiz", "id": "a1-u01-l05-a07", "title": "Exercice 4 — conjuguez", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§6, B199–B201"}], "items": [{"id": "a1-u01-l05-a07-q01", "type": "text", "prompt": "Nous (parler) ______ français.", "answers": ["parlons"], "feedback": "Com nous, a forma-alvo de parler é parlons.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a07-q02", "type": "text", "prompt": "Elle (habiter) ______ à Paris.", "answers": ["habite"], "feedback": "Com elle, a forma-alvo de habiter é habite.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a07-q03", "type": "text", "prompt": "Vous (travailler) ______ ici ?", "answers": ["travaillez"], "feedback": "Com vous, a forma-alvo de travailler é travaillez.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a07-q04", "type": "text", "prompt": "Ils (étudier) ______ le français.", "answers": ["étudient"], "feedback": "Com ils, a forma-alvo é étudient. O acento faz parte da grafia.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a07-q05", "type": "text", "prompt": "Je (s'appeler) ______ Lucas.", "answers": ["m'appelle"], "feedback": "A resposta inclui o pronome: Je m’appelle Lucas.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l05-a08", "title": "Exercice 5 — pronoms toniques", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§6, B202–B203"}], "items": [{"id": "a1-u01-l05-a08-q01", "type": "text", "prompt": "______, je suis brésilienne.", "answers": ["Moi"], "feedback": "O pronome tônico associado a je é moi.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a08-q02", "type": "text", "prompt": "Et ______ (tu), tu es d'où ?", "answers": ["toi"], "feedback": "O pronome tônico associado a tu é toi.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a08-q03", "type": "text", "prompt": "______ (il), il est français.", "answers": ["Lui"], "feedback": "O pronome tônico associado a il é lui.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a08-q04", "type": "text", "prompt": "______ (nous), nous habitons à Paris.", "answers": ["Nous"], "feedback": "Nous tem a mesma forma como sujeito e como pronome tônico neste exemplo.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l06-a01", "title": "Revisão ativa", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l06-a01-q01", "type": "choice", "prompt": "Qual frase informa idade?", "options": ["Je suis 24 ans.", "J’ai 24 ans."], "answer": 1, "feedback": "A idade é expressa com avoir: j’ai… ans."}, {"id": "a1-u01-l06-a01-q02", "type": "choice", "prompt": "Complete: Elle est…", "options": ["brésilien", "brésilienne"], "answer": 1, "feedback": "Brésilienne concorda com elle no exemplo."}, {"id": "a1-u01-l06-a01-q03", "type": "choice", "prompt": "Qual frase segue o modelo simples de profissão?", "options": ["Je suis médecin.", "Je suis un médecin."], "answer": 0, "feedback": "No modelo trabalhado, être + profissão aparece sem artigo."}, {"id": "a1-u01-l06-a01-q04", "type": "choice", "prompt": "Quelle forme correspond à 42 ?", "options": ["quarante-deux", "vingt-quatre"], "answer": 0, "feedback": "Quarante-deux é 42; vingt-quatre é 24."}, {"id": "a1-u01-l06-a01-q05", "type": "choice", "prompt": "Complete: ___ adresse", "options": ["le", "l’"], "answer": 1, "feedback": "Usa-se l’ antes da vogal inicial de adresse."}, {"id": "a1-u01-l06-a01-q06", "type": "choice", "prompt": "Em um primeiro encontro profissional, qual tratamento usamos neste percurso?", "options": ["tu", "vous"], "answer": 1, "feedback": "Vous é o tratamento formal proposto para esse contexto."}]}, {"type": "quiz", "id": "a1-u01-l06-a04", "title": "Compreensão escrita — cinco afirmações", "instruction": "Leia o cartão proposto abaixo. Marque vrai ou faux. Este instrumento novo aguarda validação do Coordenador.", "items": [{"id": "a1-u01-l06-a04-q01", "type": "choice", "prompt": "Lucie Martin est journaliste.", "options": ["Vrai", "Faux"], "answer": 0, "feedback": "A profissão no cartão é journaliste."}, {"id": "a1-u01-l06-a04-q02", "type": "choice", "prompt": "Elle habite à Marseille.", "options": ["Vrai", "Faux"], "answer": 1, "feedback": "O cartão indica Lyon, não Marseille."}, {"id": "a1-u01-l06-a04-q03", "type": "choice", "prompt": "Son nom est Martin.", "options": ["Vrai", "Faux"], "answer": 0, "feedback": "Lucie é o prénom; Martin é o nom."}, {"id": "a1-u01-l06-a04-q04", "type": "choice", "prompt": "Son adresse est 8, rue des Lilas.", "options": ["Vrai", "Faux"], "answer": 0, "feedback": "O endereço escrito no cartão é 8, rue des Lilas."}, {"id": "a1-u01-l06-a04-q05", "type": "choice", "prompt": "Son numéro est le 06 14 25 36 47.", "options": ["Vrai", "Faux"], "answer": 1, "feedback": "O cartão termina em 46: 06 14 25 36 46."}], "before_html": "<div class=\"business-card\"><span>Carte de visite · personnage fictif<\/span><h4 lang=\"fr\">Lucie Martin<\/h4><p lang=\"fr\">Journaliste · Lyon<\/p><p lang=\"fr\">8, rue des Lilas<br>06 14 25 36 46<\/p><\/div>"}, {"type": "quiz", "id": "a1-u01-l06-a06", "title": "Mini-teste — gramática e léxico", "instruction": "Complete os 17 itens e confira o retorno. O resultado é de treino, não nota oficial. Os quatro itens de artigos recebem instruções propostas mais específicas, ainda em validação.", "source_refs": [{"source_id": "U1", "locator": "§9, B233–B244"}], "items": [{"id": "a1-u01-l06-a06-q01", "type": "text", "prompt": "Elle ______ 22 ans.", "answers": ["a"], "feedback": "A idade usa avoir; com elle, a forma-alvo é a.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q02", "type": "text", "prompt": "Nous ______ étudiants.", "answers": ["sommes"], "feedback": "Com nous, a forma de être indicada no original é sommes.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q03", "type": "text", "prompt": "Tu ______ une adresse ?", "answers": ["as"], "feedback": "A frase usa avoir; com tu, a forma-alvo é as.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q04", "type": "text", "prompt": "Vous ______ brésilien ?", "answers": ["êtes"], "feedback": "A nacionalidade usa être; a forma-alvo com vous é êtes.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q05", "type": "text", "prompt": "Ils ______ 30 ans.", "answers": ["ont"], "feedback": "A idade usa avoir; com ils, a forma-alvo é ont.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q06", "type": "text", "prompt": "un étudiant → ______", "answers": ["une étudiante"], "feedback": "O gabarito altera o artigo e a forma da profissão: une étudiante.", "origin": "explicit_source", "section": "Masculino e feminino"}, {"id": "a1-u01-l06-a06-q07", "type": "text", "prompt": "un infirmier → ______", "answers": ["une infirmière"], "feedback": "O alvo do original é une infirmière.", "origin": "explicit_source", "section": "Masculino e feminino"}, {"id": "a1-u01-l06-a06-q08", "type": "text", "prompt": "français → ______", "answers": ["française"], "feedback": "O feminino indicado no original é française.", "origin": "explicit_source", "section": "Masculino e feminino"}, {"id": "a1-u01-l06-a06-q09", "type": "text", "prompt": "italien → ______", "answers": ["italienne"], "feedback": "O feminino indicado no original é italienne.", "origin": "explicit_source", "section": "Masculino e feminino"}, {"id": "a1-u01-l06-a06-q10", "type": "text", "prompt": "Artigo definido, feminino singular: ___ rue", "answers": ["la"], "feedback": "O gabarito indica la. O contexto do item precisa ser definido antes de rejeitar outros artigos possíveis.", "origin": "explicit_source", "original_prompt": "______ rue", "proposed_instruction": true, "section": "Artigos — instrução proposta"}, {"id": "a1-u01-l06-a06-q11", "type": "text", "prompt": "Artigo indefinido, plural: ___ étudiants", "answers": ["des"], "feedback": "O gabarito indica des. O contexto do item precisa ser definido antes de rejeitar outros artigos possíveis.", "origin": "explicit_source", "original_prompt": "______ étudiants", "proposed_instruction": true, "section": "Artigos — instrução proposta"}, {"id": "a1-u01-l06-a06-q12", "type": "text", "prompt": "Artigo indefinido, masculino singular: J’habite dans ___ appartement.", "answers": ["un"], "feedback": "O gabarito indica un. A contextualização da frase deve justificar a escolha antes da correção automática.", "origin": "explicit_source", "original_prompt": "J'habite dans ______ appartement", "proposed_instruction": true, "section": "Artigos — instrução proposta"}, {"id": "a1-u01-l06-a06-q13", "type": "text", "prompt": "Artigo definido, com elisão: ___ adresse", "answers": ["l'"], "feedback": "O gabarito indica l’. O item precisa distinguir a escolha do artigo do uso da elisão.", "origin": "explicit_source", "original_prompt": "______ adresse", "proposed_instruction": true, "section": "Artigos — instrução proposta"}, {"id": "a1-u01-l06-a06-q14", "type": "text", "prompt": "Je (parler) ______ français.", "answers": ["parle"], "feedback": "A forma-alvo de parler com je é parle.", "origin": "explicit_source", "section": "Conjugação"}, {"id": "a1-u01-l06-a06-q15", "type": "text", "prompt": "Nous (habiter) ______ à Rio.", "answers": ["habitons"], "feedback": "A forma-alvo de habiter com nous é habitons.", "origin": "explicit_source", "section": "Conjugação"}, {"id": "a1-u01-l06-a06-q16", "type": "text", "prompt": "Elle (s'appeler) ______ Marie.", "answers": ["s'appelle"], "feedback": "A forma-alvo inclui o pronome: elle s’appelle.", "origin": "explicit_source", "section": "Conjugação"}, {"id": "a1-u01-l06-a06-q17", "type": "text", "prompt": "Vous (travailler) ______ ici ?", "answers": ["travaillez"], "feedback": "A forma-alvo de travailler com vous é travaillez.", "origin": "explicit_source", "section": "Conjugação"}], "is_mini": true}], "lessons": [{"number": 1, "id": "a1-u01-l01", "title": "Bonjour ! Je m’appelle…", "self": [{"key": "greetings", "title": "Cumprimentar e me despedir.", "fiche": "a1-f01"}, {"key": "name", "title": "Dizer e perguntar o nome.", "fiche": "a1-f02"}, {"key": "register", "title": "Escolher entre tu e vous no contexto.", "fiche": "a1-f01"}]}, {"number": 2, "id": "a1-u01-l02", "title": "Qui êtes-vous ?", "self": [{"key": "l2-self-1", "title": "Dizer e perguntar idade.", "fiche": "a1-f04"}, {"key": "l2-self-2", "title": "Usar nacionalidade com concordância.", "fiche": "a1-f05"}, {"key": "l2-self-3", "title": "Apresentar os dados de outra pessoa.", "fiche": "a1-f03"}]}, {"number": 3, "id": "a1-u01-l03", "title": "Que faites-vous dans la vie ?", "self": [{"key": "l3-self-1", "title": "Perguntar e dizer uma profissão.", "fiche": "a1-f07"}, {"key": "l3-self-2", "title": "Escolher un, une ou des.", "fiche": "a1-f08"}, {"key": "l3-self-3", "title": "Distinguir c’est de il/elle est neste recorte.", "fiche": "a1-f09"}]}, {"number": 4, "id": "a1-u01-l04", "title": "Mes coordonnées", "self": [{"key": "l4-self-1", "title": "Soletrar um nome com apoio.", "fiche": "a1-f10"}, {"key": "l4-self-2", "title": "Pedir e informar endereço e telefone.", "fiche": "a1-f11"}, {"key": "l4-self-3", "title": "Selecionar le, la, l’ ou les.", "fiche": "a1-f12"}]}, {"number": 5, "id": "a1-u01-l05", "title": "Je vous présente…", "self": [{"key": "l5-self-1", "title": "Apresentar duas pessoas.", "fiche": "a1-f13"}, {"key": "l5-self-2", "title": "Conjugar os verbos em -er trabalhados.", "fiche": "a1-f14"}, {"key": "l5-self-3", "title": "Reconhecer singular e plural.", "fiche": "a1-f15"}]}, {"number": 6, "id": "a1-u01-l06", "title": "Soirée de rencontre", "self": [{"key": "l6-self-1", "title": "Iniciar e encerrar uma conversa com o registro adequado.", "fiche": "a1-f01"}, {"key": "l6-self-2", "title": "Informar e perguntar dados de identidade.", "fiche": "a1-f03"}, {"key": "l6-self-3", "title": "Apresentar outra pessoa.", "fiche": "a1-f13"}, {"key": "l6-self-4", "title": "Pedir e anotar contato.", "fiche": "a1-f11"}, {"key": "l6-self-5", "title": "Reconhecer o que preciso revisar.", "fiche": "a1-f16"}]}]};
+const UNIT_DATA = {"version": "v0.2-rc2", "groups": [{"id": "a1-u01-l01-a01", "title": "Confira o que você compreendeu", "mode": "reading", "source_refs": ["U1 §2 B037–B039"], "adaptation": "Perguntas de leitura a partir das transcrições. Não equivalem à avaliação de compreensão oral. Contextos e atribuição dos interlocutores são rótulos editoriais.", "items": [{"id": "a1-u01-l01-a01-q01", "prompt": "Em qual contexto se passa o primeiro diálogo?", "options": ["Entre amigos, na sala de aula.", "Entre cliente e recepcionista de hotel."], "answer": 0, "feedback": "O contexto indicado é uma conversa entre amigos, em classe. Observe “Salut !” e o uso de “tu”."}, {"id": "a1-u01-l01-a01-q02", "prompt": "Quais são os nomes dos dois amigos?", "options": ["Anna e Karim.", "Léa e Karim."], "answer": 1, "feedback": "Léa diz “Je m’appelle Léa”. Em seguida, Karim se apresenta: “Moi, je m’appelle Karim”."}, {"id": "a1-u01-l01-a01-q03", "prompt": "Qual expressão encerra a conversa dos amigos?", "options": ["Bonne journée !", "À demain !"], "answer": 1, "feedback": "Os dois encerram com “À demain !”, uma despedida para quando se espera ver a pessoa no dia seguinte."}, {"id": "a1-u01-l01-a01-q04", "prompt": "Onde acontece o segundo diálogo?", "options": ["Em uma recepção de hotel.", "Em uma festa de amigos."], "answer": 0, "feedback": "O segundo contexto é um atendimento na recepção de hotel, com as formas “madame”, “monsieur” e “vous”."}, {"id": "a1-u01-l01-a01-q05", "prompt": "Como a cliente do hotel se chama?", "options": ["Anna Martins.", "Léa Martins."], "answer": 0, "feedback": "A cliente responde: “Je m’appelle Anna Martins”. O nome do recepcionista não é informado."}, {"id": "a1-u01-l01-a01-q06", "prompt": "Qual pergunta aparece na recepção do hotel?", "options": ["Tu t’appelles comment ?", "Vous vous appelez comment ?"], "answer": 1, "feedback": "No atendimento apresentado, a pergunta usa “vous”. Entre os amigos, a pergunta usa “tu”."}]}, {"id": "a1-u01-l01-a02", "title": "Tu ou vous ?", "source_refs": ["U1 §2 B046", "Design v0.1 #lesson-practice"], "items": [{"id": "a1-u01-l01-a02-q01", "prompt": "Você encontra uma amiga em uma festa.", "options": ["TU", "VOUS"], "answer": 0, "feedback": "Neste contexto de amizade, usamos “tu”. A escolha do registro depende da relação e da situação."}, {"id": "a1-u01-l01-a02-q02", "prompt": "Você fala com a recepcionista de um hotel pela primeira vez.", "options": ["TU", "VOUS"], "answer": 1, "feedback": "No primeiro atendimento descrito, “vous” é a escolha formal proposta."}, {"id": "a1-u01-l01-a02-q03", "prompt": "Você conhece uma pessoa em uma primeira reunião profissional.", "options": ["TU", "VOUS"], "answer": 1, "feedback": "O exercício apresenta um primeiro contato profissional: aqui, a escolha proposta é “vous”."}]}, {"type": "quiz", "id": "a1-u01-l02-a02", "title": "Leia a ficha de Marina", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l02-a02-q01", "type": "choice", "prompt": "Quel est son prénom ?", "options": ["Silva", "Marina"], "answer": 1, "feedback": "Prénom é o nome próprio: Marina. Nom, nesta ficha, identifica o sobrenome Silva."}, {"id": "a1-u01-l02-a02-q02", "type": "choice", "prompt": "Quel âge a Marina ?", "options": ["24 ans", "20 ans"], "answer": 0, "feedback": "No texto, Marina diz “J’ai 24 ans”."}, {"id": "a1-u01-l02-a02-q03", "type": "choice", "prompt": "Quelle est sa nationalité ?", "options": ["brésilienne", "italienne"], "answer": 0, "feedback": "A nacionalidade indicada é brésilienne. O país é le Brésil."}, {"id": "a1-u01-l02-a02-q04", "type": "choice", "prompt": "Où habite Marina ?", "options": ["À Paris", "À Rio"], "answer": 1, "feedback": "“J’habite à Rio” localiza sua cidade. Habiter aparece aqui como expressão; a conjugação será estudada adiante."}]}, {"type": "quiz", "id": "a1-u01-l02-a07", "title": "Exercice 1 — être ou avoir", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§3, B085–B087"}], "items": [{"id": "a1-u01-l02-a07-q01", "type": "text", "prompt": "Je ______ brésilien.", "answers": ["suis"], "feedback": "A nacionalidade é apresentada com être. Com je, a forma-alvo é suis.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q02", "type": "text", "prompt": "Tu ______ quel âge ?", "answers": ["as"], "feedback": "Para idade, a expressão trabalha avoir. Com tu, a forma-alvo é as.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q03", "type": "text", "prompt": "Elle ______ italienne.", "answers": ["est"], "feedback": "A frase informa nacionalidade. Com elle, a forma-alvo é est.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q04", "type": "text", "prompt": "Nous ______ 20 ans.", "answers": ["avons"], "feedback": "A idade é expressa com avoir. Com nous, a forma-alvo é avons.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q05", "type": "text", "prompt": "Vous ______ français ?", "answers": ["êtes"], "feedback": "A pergunta informa nacionalidade. Com vous, a forma-alvo é êtes. A explicação dessa forma ainda depende de U1-P09.", "origin": "explicit_source"}, {"id": "a1-u01-l02-a07-q06", "type": "text", "prompt": "Ils ______ 30 ans.", "answers": ["ont"], "feedback": "A idade é expressa com avoir. Com ils, a forma-alvo é ont.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l03-a02", "title": "Compreenda o encontro", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l03-a02-q01", "type": "choice", "prompt": "Quelle est la profession de Julien ?", "options": ["ingénieur", "journaliste"], "answer": 0, "feedback": "Julien se apresenta com “Je suis ingénieur”."}, {"id": "a1-u01-l03-a02-q02", "type": "choice", "prompt": "Où travaille Sofia ?", "options": ["Dans un journal à Lyon.", "Dans une entreprise de logistique."], "answer": 0, "feedback": "Sofia diz que trabalha em um jornal, em Lyon."}, {"id": "a1-u01-l03-a02-q03", "type": "choice", "prompt": "Qual pergunta busca o lugar de trabalho?", "options": ["Vous travaillez où ?", "Comment vous vous appelez ?"], "answer": 0, "feedback": "Où pergunta pelo lugar. O nome é perguntado com s’appeler."}]}, {"type": "quiz", "id": "a1-u01-l03-a03", "title": "Vrai ou faux ?", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l03-a03-q01", "type": "choice", "prompt": "Sofia travaille dans une entreprise de logistique.", "options": ["Vrai", "Faux"], "answer": 1, "feedback": "Faux. Quem trabalha na empresa de logística é Julien; Sofia trabalha em um jornal."}]}, {"type": "quiz", "id": "a1-u01-l03-a08", "title": "Exercice 2 — le féminin", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§4, B123–B125"}], "items": [{"id": "a1-u01-l03-a08-q01", "type": "text", "prompt": "un étudiant → ______", "answers": ["une étudiante"], "feedback": "O alvo do original altera o artigo para une e acrescenta e em étudiante.", "origin": "explicit_source"}, {"id": "a1-u01-l03-a08-q02", "type": "text", "prompt": "un infirmier → ______", "answers": ["une infirmière"], "feedback": "O alvo do original é une infirmière: muda o artigo e a terminação -ier para -ière.", "origin": "explicit_source"}, {"id": "a1-u01-l03-a08-q03", "type": "text", "prompt": "un acteur → ______", "answers": ["une actrice"], "feedback": "O alvo do original é une actrice. Compare as formas completas, sem aplicar uma regra única a todas as profissões.", "origin": "explicit_source"}, {"id": "a1-u01-l03-a08-q04", "type": "text", "prompt": "un journaliste → ______", "answers": ["une journaliste"], "feedback": "Journaliste mantém a grafia; o artigo passa a une.", "origin": "explicit_source"}, {"id": "a1-u01-l03-a08-q05", "type": "text", "prompt": "un serveur → ______", "answers": ["une serveuse"], "feedback": "O alvo do original é une serveuse: artigo feminino e forma feminina da profissão.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l04-a02", "title": "Localize os dados de Paul", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l04-a02-q01", "type": "choice", "prompt": "Quel est son prénom ?", "options": ["Durand", "Paul"], "answer": 1, "feedback": "Paul é o prénom; Durand é o nom."}, {"id": "a1-u01-l04-a02-q02", "type": "choice", "prompt": "Comment s’écrit son nom ?", "options": ["D-U-R-A-N-D", "D-U-R-A-N-T"], "answer": 0, "feedback": "No diálogo, Paul soletra D-U-R-A-N-D."}, {"id": "a1-u01-l04-a02-q03", "type": "choice", "prompt": "Quelle est son adresse ?", "options": ["12, rue des Fleurs", "14, avenue Victor Hugo"], "answer": 0, "feedback": "O endereço informado é 12, rue des Fleurs."}, {"id": "a1-u01-l04-a02-q04", "type": "choice", "prompt": "Dans quelle ville habite-t-il ?", "options": ["Marseille", "Paris"], "answer": 0, "feedback": "Paul diz “à Marseille”."}, {"id": "a1-u01-l04-a02-q05", "type": "choice", "prompt": "Quel numéro figure dans le dialogue ?", "options": ["06 12 34 56 78", "06 45 18 62 30"], "answer": 0, "feedback": "O diálogo traz 06 12 34 56 78. Aqui você apenas localiza o texto: o par 78 está fora do recorte 0–69 e aguarda decisão acadêmica."}]}, {"type": "quiz", "id": "a1-u01-l04-a03", "title": "Reconheça a pergunta", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l04-a03-q01", "type": "choice", "prompt": "Para pedir endereço, qual pergunta é adequada?", "options": ["Quelle est votre adresse ?", "Quel âge avez-vous ?"], "answer": 0, "feedback": "Adresse é o endereço; âge é a idade."}, {"id": "a1-u01-l04-a03-q02", "type": "choice", "prompt": "Para pedir telefone, qual pergunta é adequada?", "options": ["Quel est votre numéro de téléphone ?", "Quelle est votre nationalité ?"], "answer": 0, "feedback": "Numéro de téléphone identifica o dado de contato pedido."}]}, {"type": "quiz", "id": "a1-u01-l04-a08", "title": "Exercice 3 — articles définis", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§5, B160–B161"}], "items": [{"id": "a1-u01-l04-a08-q01", "type": "text", "prompt": "______ adresse", "answers": ["l'"], "feedback": "O alvo é l’adresse: o artigo é elidido antes da vogal. A organização da tabela de apoio aguarda U1-P08.", "origin": "explicit_source"}, {"id": "a1-u01-l04-a08-q02", "type": "text", "prompt": "______ numéro", "answers": ["le"], "feedback": "O gabarito do original é le numéro. Digite somente o artigo no campo.", "origin": "explicit_source"}, {"id": "a1-u01-l04-a08-q03", "type": "text", "prompt": "______ rue", "answers": ["la"], "feedback": "O gabarito do original é la rue. Digite somente o artigo no campo.", "origin": "explicit_source"}, {"id": "a1-u01-l04-a08-q04", "type": "text", "prompt": "______ villes", "answers": ["les"], "feedback": "Villes está no plural; o artigo definido solicitado é les.", "origin": "explicit_source"}, {"id": "a1-u01-l04-a08-q05", "type": "text", "prompt": "______ téléphone", "answers": ["le"], "feedback": "O gabarito do original é le téléphone. Digite somente o artigo no campo.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l05-a02", "title": "Quem é apresentado?", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l05-a02-q01", "type": "choice", "prompt": "Na primeira fala, quem é apresentado a Anna?", "options": ["Marc", "Paul"], "answer": 0, "feedback": "A expressão é “je te présente Marc”. O nome de quem fala não é informado."}, {"id": "a1-u01-l05-a02-q02", "type": "choice", "prompt": "Quelle est la nationalité d’Anna ?", "options": ["française", "italienne"], "answer": 1, "feedback": "Anna responde “Non, je suis italienne”."}, {"id": "a1-u01-l05-a02-q03", "type": "choice", "prompt": "Quais palavras do diálogo são pronomes tônicos?", "options": ["moi, lui", "je, il"], "answer": 0, "feedback": "Moi e lui são as formas tônicas destacadas no diálogo; je e il são sujeitos."}, {"id": "a1-u01-l05-a02-q04", "type": "choice", "prompt": "Na primeira fala, qual expressão indica tratamento informal?", "options": ["Je te présente…", "Je vous présente…"], "answer": 0, "feedback": "Te corresponde ao tratamento informal. A conversa também contém vous em outro contato."}]}, {"type": "quiz", "id": "a1-u01-l05-a07", "title": "Exercice 4 — conjuguez", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§6, B199–B201"}], "items": [{"id": "a1-u01-l05-a07-q01", "type": "text", "prompt": "Nous (parler) ______ français.", "answers": ["parlons"], "feedback": "Com nous, a forma-alvo de parler é parlons.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a07-q02", "type": "text", "prompt": "Elle (habiter) ______ à Paris.", "answers": ["habite"], "feedback": "Com elle, a forma-alvo de habiter é habite.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a07-q03", "type": "text", "prompt": "Vous (travailler) ______ ici ?", "answers": ["travaillez"], "feedback": "Com vous, a forma-alvo de travailler é travaillez.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a07-q04", "type": "text", "prompt": "Ils (étudier) ______ le français.", "answers": ["étudient"], "feedback": "Com ils, a forma-alvo é étudient. O acento faz parte da grafia.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a07-q05", "type": "text", "prompt": "Je (s'appeler) ______ Lucas.", "answers": ["m'appelle"], "feedback": "A resposta inclui o pronome: Je m’appelle Lucas.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l05-a08", "title": "Exercice 5 — pronoms toniques", "instruction": "Complete somente a lacuna. Preserve os acentos e, quando solicitado, escreva também o artigo.", "source_refs": [{"source_id": "U1", "locator": "§6, B202–B203"}], "items": [{"id": "a1-u01-l05-a08-q01", "type": "text", "prompt": "______, je suis brésilienne.", "answers": ["Moi"], "feedback": "O pronome tônico associado a je é moi.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a08-q02", "type": "text", "prompt": "Et ______ (tu), tu es d'où ?", "answers": ["toi"], "feedback": "O pronome tônico associado a tu é toi.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a08-q03", "type": "text", "prompt": "______ (il), il est français.", "answers": ["Lui"], "feedback": "O pronome tônico associado a il é lui.", "origin": "explicit_source"}, {"id": "a1-u01-l05-a08-q04", "type": "text", "prompt": "______ (nous), nous habitons à Paris.", "answers": ["Nous"], "feedback": "Nous tem a mesma forma como sujeito e como pronome tônico neste exemplo.", "origin": "explicit_source"}]}, {"type": "quiz", "id": "a1-u01-l06-a01", "title": "Revisão ativa", "instruction": "Escolha uma resposta. Você pode tentar novamente.", "items": [{"id": "a1-u01-l06-a01-q01", "type": "choice", "prompt": "Qual frase informa idade?", "options": ["Je suis 24 ans.", "J’ai 24 ans."], "answer": 1, "feedback": "A idade é expressa com avoir: j’ai… ans."}, {"id": "a1-u01-l06-a01-q02", "type": "choice", "prompt": "Complete: Elle est…", "options": ["brésilien", "brésilienne"], "answer": 1, "feedback": "Brésilienne concorda com elle no exemplo."}, {"id": "a1-u01-l06-a01-q03", "type": "choice", "prompt": "Qual frase segue o modelo simples de profissão?", "options": ["Je suis médecin.", "Je suis un médecin."], "answer": 0, "feedback": "No modelo trabalhado, être + profissão aparece sem artigo."}, {"id": "a1-u01-l06-a01-q04", "type": "choice", "prompt": "Quelle forme correspond à 42 ?", "options": ["quarante-deux", "vingt-quatre"], "answer": 0, "feedback": "Quarante-deux é 42; vingt-quatre é 24."}, {"id": "a1-u01-l06-a01-q05", "type": "choice", "prompt": "Complete: ___ adresse", "options": ["le", "l’"], "answer": 1, "feedback": "Usa-se l’ antes da vogal inicial de adresse."}, {"id": "a1-u01-l06-a01-q06", "type": "choice", "prompt": "Em um primeiro encontro profissional, qual tratamento usamos neste percurso?", "options": ["tu", "vous"], "answer": 1, "feedback": "Vous é o tratamento formal proposto para esse contexto."}]}, {"type": "quiz", "id": "a1-u01-l06-a04", "title": "Compreensão escrita — cinco afirmações", "instruction": "Leia o cartão proposto abaixo. Marque vrai ou faux. Este instrumento novo aguarda validação do Coordenador.", "items": [{"id": "a1-u01-l06-a04-q01", "type": "choice", "prompt": "Lucie Martin est journaliste.", "options": ["Vrai", "Faux"], "answer": 0, "feedback": "A profissão no cartão é journaliste."}, {"id": "a1-u01-l06-a04-q02", "type": "choice", "prompt": "Elle habite à Marseille.", "options": ["Vrai", "Faux"], "answer": 1, "feedback": "O cartão indica Lyon, não Marseille."}, {"id": "a1-u01-l06-a04-q03", "type": "choice", "prompt": "Son nom est Martin.", "options": ["Vrai", "Faux"], "answer": 0, "feedback": "Lucie é o prénom; Martin é o nom."}, {"id": "a1-u01-l06-a04-q04", "type": "choice", "prompt": "Son adresse est 8, rue des Lilas.", "options": ["Vrai", "Faux"], "answer": 0, "feedback": "O endereço escrito no cartão é 8, rue des Lilas."}, {"id": "a1-u01-l06-a04-q05", "type": "choice", "prompt": "Son numéro est le 06 14 25 36 47.", "options": ["Vrai", "Faux"], "answer": 1, "feedback": "O cartão termina em 46: 06 14 25 36 46."}], "before_html": "<div class=\"business-card\"><span>Carte de visite · personnage fictif<\/span><h4 lang=\"fr\">Lucie Martin<\/h4><p lang=\"fr\">Journaliste · Lyon<\/p><p lang=\"fr\">8, rue des Lilas<br>06 14 25 36 46<\/p><\/div>"}, {"type": "quiz", "id": "a1-u01-l06-a06", "title": "Mini-teste — gramática e léxico", "instruction": "Complete os 17 itens e confira o retorno. O resultado é de treino, não nota oficial. Os quatro itens de artigos recebem instruções propostas mais específicas, ainda em validação.", "source_refs": [{"source_id": "U1", "locator": "§9, B233–B244"}], "items": [{"id": "a1-u01-l06-a06-q01", "type": "text", "prompt": "Elle ______ 22 ans.", "answers": ["a"], "feedback": "A idade usa avoir; com elle, a forma-alvo é a.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q02", "type": "text", "prompt": "Nous ______ étudiants.", "answers": ["sommes"], "feedback": "Com nous, a forma de être indicada no original é sommes.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q03", "type": "text", "prompt": "Tu ______ une adresse ?", "answers": ["as"], "feedback": "A frase usa avoir; com tu, a forma-alvo é as.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q04", "type": "text", "prompt": "Vous ______ brésilien ?", "answers": ["êtes"], "feedback": "A nacionalidade usa être; a forma-alvo com vous é êtes.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q05", "type": "text", "prompt": "Ils ______ 30 ans.", "answers": ["ont"], "feedback": "A idade usa avoir; com ils, a forma-alvo é ont.", "origin": "explicit_source", "section": "Être ou avoir"}, {"id": "a1-u01-l06-a06-q06", "type": "text", "prompt": "un étudiant → ______", "answers": ["une étudiante"], "feedback": "O gabarito altera o artigo e a forma da profissão: une étudiante.", "origin": "explicit_source", "section": "Masculino e feminino"}, {"id": "a1-u01-l06-a06-q07", "type": "text", "prompt": "un infirmier → ______", "answers": ["une infirmière"], "feedback": "O alvo do original é une infirmière.", "origin": "explicit_source", "section": "Masculino e feminino"}, {"id": "a1-u01-l06-a06-q08", "type": "text", "prompt": "français → ______", "answers": ["française"], "feedback": "O feminino indicado no original é française.", "origin": "explicit_source", "section": "Masculino e feminino"}, {"id": "a1-u01-l06-a06-q09", "type": "text", "prompt": "italien → ______", "answers": ["italienne"], "feedback": "O feminino indicado no original é italienne.", "origin": "explicit_source", "section": "Masculino e feminino"}, {"id": "a1-u01-l06-a06-q10", "type": "text", "prompt": "Artigo definido, feminino singular: ___ rue", "answers": ["la"], "feedback": "O gabarito indica la. O contexto do item precisa ser definido antes de rejeitar outros artigos possíveis.", "origin": "explicit_source", "original_prompt": "______ rue", "proposed_instruction": true, "section": "Artigos — instrução proposta"}, {"id": "a1-u01-l06-a06-q11", "type": "text", "prompt": "Artigo indefinido, plural: ___ étudiants", "answers": ["des"], "feedback": "O gabarito indica des. O contexto do item precisa ser definido antes de rejeitar outros artigos possíveis.", "origin": "explicit_source", "original_prompt": "______ étudiants", "proposed_instruction": true, "section": "Artigos — instrução proposta"}, {"id": "a1-u01-l06-a06-q12", "type": "text", "prompt": "Artigo indefinido, masculino singular: J’habite dans ___ appartement.", "answers": ["un"], "feedback": "O gabarito indica un. A contextualização da frase deve justificar a escolha antes da correção automática.", "origin": "explicit_source", "original_prompt": "J'habite dans ______ appartement", "proposed_instruction": true, "section": "Artigos — instrução proposta"}, {"id": "a1-u01-l06-a06-q13", "type": "text", "prompt": "Artigo definido, com elisão: ___ adresse", "answers": ["l'"], "feedback": "O gabarito indica l’. O item precisa distinguir a escolha do artigo do uso da elisão.", "origin": "explicit_source", "original_prompt": "______ adresse", "proposed_instruction": true, "section": "Artigos — instrução proposta"}, {"id": "a1-u01-l06-a06-q14", "type": "text", "prompt": "Je (parler) ______ français.", "answers": ["parle"], "feedback": "A forma-alvo de parler com je é parle.", "origin": "explicit_source", "section": "Conjugação"}, {"id": "a1-u01-l06-a06-q15", "type": "text", "prompt": "Nous (habiter) ______ à Rio.", "answers": ["habitons"], "feedback": "A forma-alvo de habiter com nous é habitons.", "origin": "explicit_source", "section": "Conjugação"}, {"id": "a1-u01-l06-a06-q16", "type": "text", "prompt": "Elle (s'appeler) ______ Marie.", "answers": ["s'appelle"], "feedback": "A forma-alvo inclui o pronome: elle s’appelle.", "origin": "explicit_source", "section": "Conjugação"}, {"id": "a1-u01-l06-a06-q17", "type": "text", "prompt": "Vous (travailler) ______ ici ?", "answers": ["travaillez"], "feedback": "A forma-alvo de travailler com vous é travaillez.", "origin": "explicit_source", "section": "Conjugação"}], "is_mini": true}], "lessons": [{"number": 1, "id": "a1-u01-l01", "title": "Bonjour ! Je m’appelle…", "self": [{"key": "greetings", "title": "Cumprimentar e me despedir.", "fiche": "a1-f01"}, {"key": "name", "title": "Dizer e perguntar o nome.", "fiche": "a1-f02"}, {"key": "register", "title": "Escolher entre tu e vous no contexto.", "fiche": "a1-f01"}]}, {"number": 2, "id": "a1-u01-l02", "title": "Qui êtes-vous ?", "self": [{"key": "l2-self-1", "title": "Dizer e perguntar idade.", "fiche": "a1-f04"}, {"key": "l2-self-2", "title": "Usar nacionalidade com concordância.", "fiche": "a1-f05"}, {"key": "l2-self-3", "title": "Apresentar os dados de outra pessoa.", "fiche": "a1-f03"}]}, {"number": 3, "id": "a1-u01-l03", "title": "Que faites-vous dans la vie ?", "self": [{"key": "l3-self-1", "title": "Perguntar e dizer uma profissão.", "fiche": "a1-f07"}, {"key": "l3-self-2", "title": "Escolher un, une ou des.", "fiche": "a1-f08"}, {"key": "l3-self-3", "title": "Distinguir c’est de il/elle est neste recorte.", "fiche": "a1-f09"}]}, {"number": 4, "id": "a1-u01-l04", "title": "Mes coordonnées", "self": [{"key": "l4-self-1", "title": "Soletrar um nome com apoio.", "fiche": "a1-f10"}, {"key": "l4-self-2", "title": "Pedir e informar endereço e telefone.", "fiche": "a1-f11"}, {"key": "l4-self-3", "title": "Selecionar le, la, l’ ou les.", "fiche": "a1-f12"}]}, {"number": 5, "id": "a1-u01-l05", "title": "Je vous présente…", "self": [{"key": "l5-self-1", "title": "Apresentar duas pessoas.", "fiche": "a1-f13"}, {"key": "l5-self-2", "title": "Conjugar os verbos em -er trabalhados.", "fiche": "a1-f14"}, {"key": "l5-self-3", "title": "Reconhecer singular e plural.", "fiche": "a1-f15"}]}, {"number": 6, "id": "a1-u01-l06", "title": "Soirée de rencontre", "self": [{"key": "l6-self-1", "title": "Iniciar e encerrar uma conversa com o registro adequado.", "fiche": "a1-f01"}, {"key": "l6-self-2", "title": "Informar e perguntar dados de identidade.", "fiche": "a1-f03"}, {"key": "l6-self-3", "title": "Apresentar outra pessoa.", "fiche": "a1-f13"}, {"key": "l6-self-4", "title": "Pedir e anotar contato.", "fiche": "a1-f11"}, {"key": "l6-self-5", "title": "Reconhecer o que preciso revisar.", "fiche": "a1-f16"}]}]};
 /* Data is generated by build.py. No content fetch, backend or tracking. */
 (() => {
   'use strict';
@@ -43,6 +43,16 @@ const UNIT_DATA = {"version": "v0.2-rc1", "groups": [{"id": "a1-u01-l01-a01", "t
   }
   function closeSheet() { if (dialog.open) dialog.close(); }
   function route(focus = true) {
+    // COURSE_HOME_BRIDGE:START
+    if (window.ParcoursHome?.isRoute()) {
+      window.ParcoursU10?.hide(); window.ParcoursHome.show(focus); return;
+    }
+    window.ParcoursHome?.hide();
+    // COURSE_HOME_BRIDGE:END
+    // UNIT10 route bridge: leaves all U1 routes and storage unchanged.
+    if (window.ParcoursU10?.isRoute()) { window.ParcoursU10.show(focus); return; }
+    window.ParcoursU10?.hide();
+    document.dispatchEvent(new Event('parcours:speech-stop'));
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); } catch { id = ''; }
     const target = id ? document.getElementById(id) : null;
@@ -77,6 +87,7 @@ const UNIT_DATA = {"version": "v0.2-rc1", "groups": [{"id": "a1-u01-l01-a01", "t
     if (location.hash === '#' + id) route(); else location.hash = id;
   }
   function openSheet(name, button) {
+    document.dispatchEvent(new Event('parcours:speech-stop'));
     const target = $(`[data-sheet="${name}"]`);
     if (!target) return;
     if (!dialog.open) opener = button || document.activeElement;
@@ -96,7 +107,9 @@ const UNIT_DATA = {"version": "v0.2-rc1", "groups": [{"id": "a1-u01-l01-a01", "t
     $('.sheet-body', target).scrollTop = 0;
     $('[data-close-sheet]', target).focus();
   }
+  document.addEventListener('parcours:open-sheet', ev => openSheet(ev.detail.name, ev.detail.opener));
   dialog.addEventListener('close', () => {
+    document.dispatchEvent(new Event('parcours:speech-stop'));
     document.body.classList.remove('is-sheet-open');
     if (opener?.isConnected && !opener.closest('[hidden]')) opener.focus({ preventScroll: true });
     opener = null;
@@ -113,6 +126,7 @@ const UNIT_DATA = {"version": "v0.2-rc1", "groups": [{"id": "a1-u01-l01-a01", "t
   dialog.addEventListener('click', ev => { if (ev.target === dialog) { const r = dialog.getBoundingClientRect(); if (ev.clientX < r.left || ev.clientX > r.right || ev.clientY < r.top || ev.clientY > r.bottom) closeSheet(); } });
 
   function setDialogue(id, focus = false) {
+    document.dispatchEvent(new Event('parcours:speech-stop'));
     $$('.dialogue-tab').forEach(tab => {
       const active = tab.dataset.dialogue === id;
       tab.classList.toggle('is-active', active); tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1;
@@ -265,7 +279,7 @@ const UNIT_DATA = {"version": "v0.2-rc1", "groups": [{"id": "a1-u01-l01-a01", "t
     if (n === 6) {
       lines.push('', 'PERSONAGEM: ' + (state.roleCharacter || '[não selecionado]'), '', 'RUBRICA HUMANA DA TAREFA — não somada ao mini-teste');
       $$('[data-rubric]',root).forEach(el => lines.push(`${el.dataset.fieldLabel}: ${el.value === '' ? '[não avaliado]' : el.value + '/' + el.dataset.max}`));
-      lines.push($('[data-rubric-total]',root).textContent, '', 'Áudio ausente. Leitura do roteiro não equivale a escuta. Texto do mini-teste /3 depende de avaliação humana.');
+      lines.push($('[data-rubric-total]',root).textContent, '', 'Síntese de voz de apoio disponível conforme o dispositivo. A ficha de escuta exige condução sem exibir o roteiro; consultar o texto não comprova compreensão oral. Texto do mini-teste /3 depende de avaliação humana.');
     }
     return lines.join('\n');
   }
@@ -346,4 +360,300 @@ const UNIT_DATA = {"version": "v0.2-rc1", "groups": [{"id": "a1-u01-l01-a01", "t
     catch {failedStorage.add(n);status(n,'O rascunho local não pôde ser recuperado. Você pode estudar e baixar uma cópia sem salvar no navegador.');}
   });
   route(false);
+})();
+
+/* Parcours A1 — áudio simplificado · correção v0.19 · 11/11/2026.
+ * Botão de diálogo + botão de fala/exemplo. A mesma voz francesa automática,
+ * em velocidade normal. Sem painel de vozes, preferências ou reprodução automática.
+ * Nunca lê respostas, campos, feedback ou conteúdo não marcado como didático.
+ * Serviço remoto somente após consentimento por sessão; não usa microfone.
+ * Compatível com o HTML gerado pelos renderizadores rc2 existentes.
+ */
+(() => {
+  'use strict';
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+  const speakerSVG = '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4V9ZM17 8a6 6 0 0 1 0 8M19.5 5a10 10 0 0 1 0 14"/></svg>';
+  const stopSVG = '<svg aria-hidden="true" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>';
+  const forbidden = '.question, .answer-feedback, [data-draft], input, textarea, select, .academic-note, .source-note';
+  const texts = new WeakMap();
+  const labels = new WeakMap();
+  const feedbackNodes = new WeakMap();
+  const visible = el => !!el?.isConnected && !el.closest('[hidden]') && el.getClientRects().length > 0;
+  const isFrench = voice => /^fr(?:[-_]|$)/i.test(String(voice.lang));
+  const isLocal = voice => voice.localService === true;
+  const voiceKey = voice => [voice.lang, voice.voiceURI || voice.name, voice.name, isLocal(voice)].join('|');
+  let synth = null;
+  try { synth = window.speechSynthesis || null; } catch { /* Report only upon a play request. */ }
+  const supported = !!synth && typeof window.SpeechSynthesisUtterance === 'function';
+  let voices = [], remoteAllowed = false;
+  let token = 0, active = null, currentUtterance = null;
+  let startTimer, endTimer, nextTimer;
+
+  // Compatibility cleanup: the original builder may still emit its old toolbar.
+  // Removing it here avoids edits to templates/renderers that were not supplied.
+  $$('.speech-toolbar, .speech-sheet-tools, .speech-role-note, [data-sheet="speech-settings"], [data-speech-status]')
+    .forEach(el => el.remove());
+
+  const live = document.createElement('p');
+  live.className = 'speech-live';
+  live.setAttribute('role', 'status');
+  live.setAttribute('aria-live', 'polite');
+  live.setAttribute('aria-atomic', 'true');
+  document.body.append(live);
+
+  function say(message) { live.textContent = message; }
+  function ownerOf(button) {
+    return button.closest('[data-speech-group]') || button.closest('[data-speech-example]') || button.parentElement;
+  }
+  function clearMessage(button) {
+    feedbackNodes.get(ownerOf(button))?.remove();
+    feedbackNodes.delete(ownerOf(button));
+  }
+  function message(button, text) {
+    const owner = ownerOf(button);
+    let node = feedbackNodes.get(owner);
+    if (!node?.isConnected) {
+      node = document.createElement('p');
+      node.className = 'speech-inline-status';
+      const controls = $('.speech-dialogue-controls', owner);
+      if (controls) controls.after(node); else owner.after(node);
+      feedbackNodes.set(owner, node);
+    }
+    node.textContent = text;
+    say(text);
+  }
+  function resetButton(button) {
+    if (!button) return;
+    button.classList.remove('is-playing');
+    button.setAttribute('aria-pressed', 'false');
+    const original = labels.get(button);
+    if (!original) return;
+    button.setAttribute('aria-label', original.aria);
+    button.title = original.title;
+    const label = $('[data-speech-button-label]', button);
+    if (label) label.textContent = original.text;
+    const svg = $('svg', button);
+    if (svg) svg.outerHTML = original.svg;
+  }
+  function playingButton(button) {
+    button.classList.add('is-playing');
+    button.setAttribute('aria-pressed', 'true');
+    const name = button.hasAttribute('data-speech-group-play') ? 'Parar diálogo' : 'Parar leitura';
+    button.setAttribute('aria-label', name);
+    button.title = name;
+    const label = $('[data-speech-button-label]', button);
+    if (label) label.textContent = name;
+    const svg = $('svg', button);
+    if (svg) svg.outerHTML = stopSVG;
+  }
+  function clearTimers() { clearTimeout(startTimer); clearTimeout(endTimer); clearTimeout(nextTimer); }
+  function stop(announcement = '') {
+    token++;
+    clearTimers();
+    const previous = active;
+    active = null;
+    currentUtterance = null;
+    try { synth?.cancel(); } catch { /* A failed engine must not block the lesson. */ }
+    $$('.speech-is-reading').forEach(el => el.classList.remove('speech-is-reading'));
+    resetButton(previous?.button);
+    if (announcement) say(announcement);
+  }
+  function refreshVoices() {
+    if (!supported) return;
+    let list;
+    try { list = synth.getVoices(); } catch { list = []; }
+    const seen = new Set();
+    voices = Array.from(list || []).filter(voice => {
+      const key = voiceKey(voice);
+      if (!isFrench(voice) || seen.has(key)) return false;
+      seen.add(key); return true;
+    }).sort((a, b) => Number(isLocal(b)) - Number(isLocal(a))
+      || Number(/^fr[-_]fr$/i.test(b.lang)) - Number(/^fr[-_]fr$/i.test(a.lang))
+      || Number(b.default === true) - Number(a.default === true)
+      || String(a.name).localeCompare(String(b.name)));
+    if (active && !voices.some(v => voiceKey(v) === active.voiceKey)) {
+      const button = active.button;
+      stop(); message(button, 'A voz ficou indisponível. Clique em Ouvir para tentar novamente.');
+    }
+  }
+
+  // Preserve the rc2 reading of telephone pairs and spelling, without reading inputs.
+  const numbers = ['zéro','un','deux','trois','quatre','cinq','six','sept','huit','neuf','dix','onze','douze','treize','quatorze','quinze','seize'];
+  function numberFR(n) {
+    if (n < 17) return numbers[n];
+    if (n < 20) return 'dix-' + numbers[n - 10];
+    if (n < 70) {
+      const tens = ['', '', 'vingt', 'trente', 'quarante', 'cinquante', 'soixante'][Math.floor(n / 10)];
+      return tens + (n % 10 === 0 ? '' : n % 10 === 1 ? ' et un' : '-' + numbers[n % 10]);
+    }
+    if (n < 80) return n === 71 ? 'soixante et onze' : 'soixante-' + numberFR(n - 60);
+    return n === 80 ? 'quatre-vingts' : 'quatre-vingt-' + numberFR(n - 80);
+  }
+  function prepareText(text) {
+    return String(text).normalize('NFC')
+      .replace(/\b0[1-9](?:[ .-]\d{2}){4}\b/g, phone => phone.split(/[ .-]/).map(pair => pair[0] === '0' ? 'zéro ' + numberFR(Number(pair[1])) : numberFR(Number(pair))).join(', '))
+      .replace(/_+/g, ' ').replace(/\b(Enchanté|Ravi)\(e\)/gi, '$1')
+      .replace(/^\s*[AB]\s*:\s*/gm, '').replace(/[\/·]/g, '. ')
+      .replace(/[…]+/g, ', ').replace(/\s+/g, ' ').trim();
+  }
+  function sentences(text) {
+    const parts = text.match(/[^.!?]+[.!?]*/g) || [text];
+    const chunks = [];
+    parts.forEach(sentence => {
+      let part = '';
+      sentence.trim().split(/\s+/).forEach(word => {
+        if ((part + ' ' + word).length > 155 && part) { chunks.push(part); part = ''; }
+        part += (part ? ' ' : '') + word;
+      });
+      if (part) chunks.push(part);
+    });
+    return chunks;
+  }
+  function splitText(raw) {
+    const text = prepareText(raw);
+    const spelling = /\b(?:[A-ZÀ-ÖØ-Þ]-){2,}[A-ZÀ-ÖØ-Þ]\b/g;
+    const pieces = []; let pos = 0, match;
+    while ((match = spelling.exec(text))) {
+      if (match.index > pos) pieces.push(...sentences(text.slice(pos, match.index)));
+      pieces.push(...match[0].split('-')); pos = match.index + match[0].length;
+    }
+    if (pos < text.length) pieces.push(...sentences(text.slice(pos)));
+    return pieces.filter(t => /[\p{L}\p{N}]/u.test(t));
+  }
+  function planFor(button) {
+    if (button.hasAttribute('data-speech-group-play')) {
+      return $$('[data-speech-text]', button.closest('[data-speech-group]'))
+        .filter(el => !el.closest(forbidden) && visible(el))
+        .map(el => ({text: texts.get(el), element: el.closest('[data-speech-line]')}));
+    }
+    if (button.hasAttribute('data-speech-line-play')) {
+      const el = $('[data-speech-text]', button.closest('[data-speech-line]'));
+      return el && !el.closest(forbidden) ? [{text: texts.get(el), element: el.closest('[data-speech-line]')}] : [];
+    }
+    return texts.has(button) ? [{text: texts.get(button), element: button.closest('[data-speech-example]') || button}] : [];
+  }
+  function play(button) {
+    if (!visible(button)) return;
+    if (active?.button === button) { stop('Leitura interrompida.'); return; }
+    // A new request always cancels the prior reading, even when it cannot start.
+    stop(); clearMessage(button);
+    if (!supported) { message(button, 'Este navegador não oferece leitura em voz alta. O texto continua disponível.'); return; }
+    refreshVoices();
+    const voice = voices[0];
+    if (!voice) {
+      message(button, 'Nenhuma voz francesa está disponível neste navegador. Ative uma voz francesa no dispositivo ou experimente outro navegador e clique novamente.');
+      return;
+    }
+    if (!isLocal(voice)) {
+      if (navigator.onLine === false) { message(button, 'A voz francesa disponível exige internet. Reconecte e clique em Ouvir novamente.'); return; }
+      if (!remoteAllowed) {
+        remoteAllowed = window.confirm('A voz francesa disponível usa o serviço online do navegador. Somente o texto didático escolhido será enviado para gerar a fala; suas respostas não serão lidas. Permitir nesta sessão?');
+        if (!remoteAllowed) { message(button, 'Leitura online não autorizada. O texto continua disponível.'); return; }
+      }
+    }
+    const plan = planFor(button).flatMap(part => splitText(part.text || '').map(text => ({...part, text})));
+    if (!plan.length) { message(button, 'Não há texto didático disponível neste trecho.'); return; }
+    if (!/^fr[-_]fr$/i.test(voice.lang)) message(button, `Leitura com a variante francesa ${voice.lang} disponível neste dispositivo.`);
+    const generation = ++token;
+    active = {button, voiceKey: voiceKey(voice)};
+    playingButton(button);
+    let index = 0;
+    function next() {
+      if (!active || generation !== token) return;
+      if (index >= plan.length) {
+        clearTimers(); active = null; currentUtterance = null;
+        $$('.speech-is-reading').forEach(el => el.classList.remove('speech-is-reading'));
+        resetButton(button); say('Leitura concluída.'); return;
+      }
+      const item = plan[index];
+      const utterance = new SpeechSynthesisUtterance(item.text);
+      currentUtterance = utterance;
+      utterance.voice = voice; utterance.lang = voice.lang;
+      utterance.rate = 1; utterance.pitch = 1; utterance.volume = 1;
+      let started = false;
+      const valid = () => active && generation === token && currentUtterance === utterance;
+      function fail(text) { if (valid()) { stop(); message(button, text); } }
+      utterance.onstart = () => {
+        if (!valid()) return;
+        started = true; clearTimeout(startTimer);
+        $$('.speech-is-reading').forEach(el => el.classList.remove('speech-is-reading'));
+        item.element?.classList.add('speech-is-reading');
+        endTimer = setTimeout(() => fail('O serviço de voz não concluiu o trecho. Tente ouvir uma fala individual.'), Math.max(18000, item.text.length * 160 + 12000));
+      };
+      utterance.onend = () => {
+        if (!valid()) return;
+        clearTimers(); currentUtterance = null; index++;
+        // Advance outside the native callback; token still prevents stale replay.
+        nextTimer = setTimeout(next, 0);
+      };
+      utterance.onerror = event => {
+        const errors = {
+          'not-allowed': 'O navegador bloqueou a leitura. Clique em Ouvir novamente e verifique as permissões de som.',
+          'network': 'O serviço de voz não respondeu. Verifique a conexão e tente novamente.',
+          'voice-unavailable': 'A voz francesa ficou indisponível. Clique em Ouvir novamente.',
+          'language-unavailable': 'O dispositivo não disponibilizou francês. Ative uma voz francesa e tente novamente.',
+          'audio-busy': 'A saída de áudio está ocupada. Interrompa outra reprodução e tente novamente.',
+          'audio-hardware': 'A saída de áudio não está disponível. Confira o som do dispositivo.',
+          'canceled': 'Leitura cancelada. Clique novamente para ouvir.',
+          'interrupted': 'Leitura interrompida. Clique novamente para ouvir.'
+        };
+        fail(errors[event.error] || 'Não foi possível ler este trecho. Clique novamente ou experimente outro navegador.');
+      };
+      startTimer = setTimeout(() => { if (!started) fail('A voz não iniciou. Confira o som do dispositivo e clique novamente.'); }, 10000);
+      try {
+        if (synth.paused) synth.resume();
+        synth.speak(utterance);
+      } catch { fail('O navegador não conseguiu iniciar a leitura. Clique novamente para tentar.'); }
+    }
+    say('Leitura iniciada. Use o mesmo botão para parar.');
+    next();
+  }
+
+  $$('[data-speech-text]').forEach(el => { if (!el.closest(forbidden)) texts.set(el, el.textContent.trim()); });
+  $$('[data-speech-example]').forEach(el => {
+    if (el.closest(forbidden) || el.querySelector('input,textarea,select,button')) return;
+    const clone = el.cloneNode(true); $$('br', clone).forEach(br => br.replaceWith('\n'));
+    const text = clone.textContent.trim(); if (!text) return;
+    const button = document.createElement('button'); button.type = 'button';
+    button.className = 'speech-example-play'; button.dataset.speechExamplePlay = '';
+    button.setAttribute('aria-label', 'Ouvir exemplo: ' + text.slice(0, 160));
+    button.title = 'Ouvir este exemplo em francês'; button.innerHTML = speakerSVG;
+    texts.set(button, text); el.classList.add('speech-example'); el.append(button);
+  });
+  $$('[data-speech-letter]').forEach(el => {
+    const letter = el.textContent.trim();
+    const button = document.createElement('button'); button.type = 'button';
+    button.className = 'speech-letter'; button.dataset.speechExamplePlay = '';
+    button.setAttribute('aria-label', 'Ouvir a letra ' + letter + ' em francês');
+    button.title = 'Ouvir a letra ' + letter; button.textContent = letter;
+    texts.set(button, letter); el.replaceChildren(button);
+  });
+  $$('[data-speech-group-play],[data-speech-line-play],[data-speech-example-play]').forEach(button => {
+    button.setAttribute('lang', 'pt-BR'); button.setAttribute('aria-pressed', 'false');
+    labels.set(button, {
+      aria: button.getAttribute('aria-label') || button.textContent.trim(),
+      title: button.title,
+      text: $('[data-speech-button-label]', button)?.textContent || '',
+      svg: $('svg', button)?.outerHTML || ''
+    });
+  });
+  document.addEventListener('click', event => {
+    const button = event.target.closest('button');
+    if (button?.matches('[data-speech-group-play],[data-speech-line-play],[data-speech-example-play]')) play(button);
+  });
+  document.addEventListener('parcours:speech-stop', () => stop());
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') stop(); });
+  document.addEventListener('toggle', event => {
+    if (event.target instanceof HTMLDetailsElement && !event.target.open && active?.button && event.target.contains(active.button)) stop();
+  }, true);
+  document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); });
+  window.addEventListener('pagehide', () => stop());
+  window.addEventListener('beforeunload', () => stop());
+  if (supported) {
+    if (typeof synth.addEventListener === 'function') synth.addEventListener('voiceschanged', refreshVoices);
+    else synth.onvoiceschanged = refreshVoices;
+    [250, 1000, 3000].forEach(ms => setTimeout(refreshVoices, ms));
+    refreshVoices();
+  }
 })();
